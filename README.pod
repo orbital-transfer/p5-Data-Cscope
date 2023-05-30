@@ -1,0 +1,67 @@
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+Data::Cscope - one line description TODO
+
+=head1 VERSION
+
+version 0.001000
+
+=head1 SYNOPSIS
+
+  use My::Package; # TODO
+
+  print My::Package->new;
+
+=head1 DESCRIPTION
+
+TODO
+
+=head1 METHODS
+
+=head2 read($options)
+
+options:
+
+=over 2
+
+=item file (required)
+
+       a string with the path to the cross-ref file (e.g. C<cscope.out>)
+
+=item cscope_program (optional, default: C<cscope>)
+
+     a string with the name of the cscope executable
+
+=back
+
+=head1 CAVEATS
+
+The cscope database format could change since, as stated in this L<blog
+post|http://eli.thegreenplace.net/2010/09/28/pycscope-with-vim/>, "[the
+database format of csope is] it's not documented by design, to make sure all
+tools go through cscope itself".
+
+=head1 SEE ALSO
+
+L<cscope|http://cscope.sourceforge.net/>
+
+Tools that use the cscope database:
+L<pycscope|https://github.com/portante/pycscope>,
+L<CodeQuery|https://github.com/ruben2020/codequery>
+
+=head1 AUTHOR
+
+Zakariyya Mughal <zmughal@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2014 by Zakariyya Mughal.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
